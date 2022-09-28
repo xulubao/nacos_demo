@@ -1,0 +1,4 @@
+GET http://localhost:9012/feign/echo/nishisb
+Accept: application/json
+
+###

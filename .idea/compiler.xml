@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-provider-demo" />
+        <module name="nacos-service-demo1" />
+        <module name="nacos-demo" />
+        <module name="dubbo-consumer-demo" />
+        <module name="dobbo-service-api" />
+        <module name="nacos-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dobbo-service-api" target="1.8" />
+      <module name="dubbo-consumer-demo" target="1.8" />
+      <module name="dubbo-provider-demo" target="1.8" />
+      <module name="nacos-demo" target="1.8" />
+      <module name="nacos-service" target="1.8" />
+      <module name="nacos-service-demo1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
