@@ -31,7 +31,7 @@ import java.util.Properties;
 
  * 邮件发送工具类
 
- *
+ * 开源
 
  * */
 
